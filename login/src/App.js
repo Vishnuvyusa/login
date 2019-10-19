@@ -8,11 +8,14 @@ import Counter from "./components/Counter";
 import FunctionClick from "./components/FunctionClick";
 import ClassClick from "./components/ClassClick";
 import EventBind from "./components/EventBind";
+import ParentComponent from "./components/ParentComponent";
+import NaleList from "./components/NameList";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Vishnu Sharma" title="Software Engineer">
+      {/* <Greet name="Vishnu Sharma" title="Software Engineer">
        
       </Greet>
 
@@ -30,7 +33,11 @@ function App() {
 
       <ClassClick/>
 
-      <EventBind/>
+      <EventBind/> */}
+
+      {/* <ParentComponent/> */}
+
+      <NameList/>
 
     </div>
   );
